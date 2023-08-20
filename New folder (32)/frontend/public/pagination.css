@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: #2c6498;
+}
+
+.pagination a {
+  padding: 10px;
+  border: 1px solid #000000;
+  color: #d03d15;
+}
+
+.pagination__link {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination__link--active a {
+  color: #9b2909;
+  background: #d03d15;
+}
+
+.pagination__link--disabled a {
+  color: #d03d15;
+}
